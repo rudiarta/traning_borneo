@@ -1,4 +1,5 @@
 <?php
+    $id = isset($_POST['id']) ? $_POST['id'] : '';    
     $nama = isset($_POST['nama']) ? $_POST['nama'] : '';
     $umur = isset($_POST['umur']) ? $_POST['umur'] : '';
     $alamat = isset($_POST['alamat']) ? $_POST['alamat'] : '';
@@ -15,10 +16,10 @@
         die("Connection failed: " . mysqli_connect_error());
     }
 
-    $sql = "INSERT INTO pegawai (nama, umur, alamat) VALUES ('".$nama."', ".$umur.", '".$alamat."')";
+    $sql = "UPDATE pegawai SET nama='$nama', umur=$umur, alamat='$alamat' WHERE id=$id";
 
     if (mysqli_query($conn, $sql)) {
-        echo "New record created successfully";
+        echo "Update record successfully";
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }

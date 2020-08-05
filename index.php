@@ -1,18 +1,3 @@
-<?php
-    // $servername = "12.12.12.2";
-    // $username = "root";
-    // $password = "root";
-    
-    // // Create connection
-    // $conn = mysqli_connect($servername, $username, $password);
-    
-    // // Check connection
-    // if (!$conn) {
-    //   die("Connection failed: " . mysqli_connect_error());
-    // }
-    // echo "Connected successfully";
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -42,7 +27,9 @@
                         <input style="margin-left: 100px;" type="submit" value="submit" />
                 </form>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a href="ListData.php">List Data</a>
+            </div>
         </div>
     </body>
 </html>

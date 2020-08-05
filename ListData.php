@@ -17,10 +17,11 @@ $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {
     // output data of each row
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "id: " . $row["id"] . " - Name: " . $row["nama"] . " Umur: " . $row["umur"]." Alamat:".$row["alamat"]. "<br>";
+        echo "id: " . $row["id"] . " - Name: " . $row["nama"] . " Umur: " . $row["umur"]." Alamat:".$row["alamat"]. "<a href='http://localhost/UpdateData.php?id=".$row['id']."'>Update</a> <br> ";
     }
 } else {
     echo "0 results";
 }
 
 mysqli_close($conn);
+echo"<a href='http://Localhost/'>Kembali</a>";
