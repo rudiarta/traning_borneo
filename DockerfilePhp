@@ -1,8 +1,0 @@
-FROM php:7.2-fpm-alpine
-
-RUN apk update && \
-    apk add nmap && \
-    apk add jpegoptim && \
-    apk add composer && \
-    docker-php-ext-install pdo_mysql && \
-    docker-php-ext-install mysqli
