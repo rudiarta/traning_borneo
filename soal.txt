@@ -1,0 +1,6 @@
+## Soal latihan class inheritence
+
+Buatlah class yang bernama Aritmatika yang memiliki
+parameter x dan y, Untuk menginput nilai x dan y hanya diperbolehkan melalui __construct
+setelah itu buat class bernama Penambahan yang memiliki function Hasil yang akan mengembalikan nilai
+dari penambahan x dan y yang terdapat pada class Aritmatika, lalu di tampilkan pada main workspace
