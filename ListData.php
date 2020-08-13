@@ -1,7 +1,7 @@
 <?php
-$servername = "12.12.12.2";
+$servername = "188.166.225.114";
 $username = "root";
-$password = "root";
+$password = "latihanvps123";
 $dbname = "training";
 
 // Create connection

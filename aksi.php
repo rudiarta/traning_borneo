@@ -3,9 +3,9 @@
     $umur = isset($_POST['umur']) ? $_POST['umur'] : '';
     $alamat = isset($_POST['alamat']) ? $_POST['alamat'] : '';
 
-    $servername = "12.12.12.2";
+    $servername = "188.166.225.114";
     $username = "root";
-    $password = "root";
+    $password = "latihanvps123";
     $dbname = "training";
 
     // Create connection
