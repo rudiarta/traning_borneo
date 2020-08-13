@@ -6,7 +6,7 @@
 
     $servername = "188.166.225.114";
     $username = "root";
-    $password = "latihanvps123";
+    $password = "belajarvps";
     $dbname = "training";
 
     // Create connection
